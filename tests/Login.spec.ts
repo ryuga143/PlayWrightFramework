@@ -18,6 +18,8 @@ await newpage.AddressForm(
     Addressdata.year
 )
 await newpage.OrderSuccess()
+
+await page.pause()
 })
 
 
